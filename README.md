@@ -5,22 +5,22 @@ A Telegram Bot based on the official [Telegram Bot API](https://core.telegram.or
 ## How install
 
 Install Composer :
-`
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('SHA384', 'composer-setup.php') === '070854512ef404f16bac87071a6db9fd9721da1684cd4589b1196c3faf71b9a2682e2311b36a5079825e155ac7ce150d') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-sudo mv composer.phar /usr/local/bin/composer
-`
+
+`curl -s https://getcomposer.org/installer | php`
+
+`sudo mv composer.phar /usr/local/bin/composer` 
+
 First install apache : 
 
-`sudo apt-get update
-sudo apt-get install apache2`
+
+`sudo apt-get update`
+`sudo apt-get install apache2`
 
 next install mysql : 
-`sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
-sudo mysql_install_db
-sudo mysql_secure_installation`
+
+`sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql`
+`sudo mysql_install_db`
+`sudo mysql_secure_installation`
 
 step 3 install phpmyadmin : 
 
@@ -50,3 +50,7 @@ and import db.sql
 
 open `getUpdatesCLI.php`
 and set mysql credentials and bot api 
+
+run this command in src folder:
+
+`composer require phpbot/telegram-bot:@dev`
