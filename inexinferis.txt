@@ -1,0 +1,50 @@
+Inexinferis eLite - Karman
+==============================
+Pure OpenGL/WinApi Cheat, VAC2 Proof As Of 1-1-2015
+USE AT YOUR OWN RISK... NO WARRANTY!
+
+How To Use:
+===========
+- Extract Archives
+- Run EXE
+- Click Load
+- Run Any HL1 Game
+
+Features:
+=========
+- 2 Wallhacks
+- WhiteWalls
+- NoSmoke
+- NoFlash
+- NoSky
+- Lambert
+- LambertColor
+- Fullbright
+- Nightmode
+- Niggermodels
+- WireFrame
+- WireModels
+- 6 Crosshairs
+- BunnyHop
+- EspBox
+- AimBot (1 CT/2 TT/3 ALL)
+- NoRecoil
+- Speed
+- Zoom
+- In Game GUI
+
+Activation:
+===========
+F3: Panic Key
+F4: Menu
+Mouse Scroll: Regulate Zoom
+
+Credits:
+========
+To many people of Game-Deception forums (I don`t remember names :P)
+
+===============================
+=			      =
+=   FardaDownload.ir   =
+=			      =
+===============================
